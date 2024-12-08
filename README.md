@@ -19,7 +19,7 @@ For multimodal informations, when during the fusion process, it supposed to need
 # 3.    HSI and RGB Multimodal Detection Task:
 For the object detection method using the fusion of hyperspectral and RGB images, the main idea is to integrate features from both types of images. The key challenge lies in aligning the features of the two images and leveraging the combined features to accomplish the detection task.
 
-As this is my first try for multimodal fusion, ideally I want to follow the method provided by [CFT](https://arxiv.org/pdf/2111.00273), parellarly process the RGB and HSI data in two Conv based branch and during each stage of the hierachical output, concat the output of two modals' Conv branch as a feature map and apply MHSA method to extract the fusion features. Aforementioned are about the backbone design part, I'm still learning about the neck design part but maybe keep the same as previous Detection method is enough.
+As this is my first try for multimodal fusion, ideally I want to follow the method provided by [CFT](https://arxiv.org/pdf/2111.00273), parellarly process the RGB and HSI data in two branch and during each stage of the hierachical output, concat the output of two modals' Conv branch as a feature map and apply MHSA method to extract the fusion features. Aforementioned are about the backbone design part, I'm still learning about the neck design part but maybe keep the same as previous Detection method is enough.
 
 If so, the key technical challenge in multimodal fusion of HSI and RGB images lies in the alignment of image features, while the remaining issues, based on my current understanding, should be similar to those encountered in ordinary object detection tasks.
 
