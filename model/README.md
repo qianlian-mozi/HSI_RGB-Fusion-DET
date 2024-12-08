@@ -1,0 +1,3 @@
+In this part, a fusion model based on ultralytics structure is proposed. Just for example.
+
+The algorithm config is just work as a theoretical framework, and the extra_module should be registered into ultralytics platform which method not mentioned and done here. Check the official guidance or the other [repo](https://github.com/qianlian-mozi/AIA-Term_work) for more examples about this. It still takes a lot of time to debug and refine the format of the regiestering and configuation.
